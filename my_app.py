@@ -5,7 +5,7 @@ from tensorflow.keras import models
 import numpy as np
 from tensorflow.keras import preprocessing
 
-# Model 
+# Model declaration
 def model_predictions(test_img):
     model = models.load_model(r"C:\Users\USER\Documents\Projct\trained_model.h5")
     
