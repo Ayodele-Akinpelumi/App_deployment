@@ -1,6 +1,4 @@
-import streamlit 
-fimport Image
-import tensorflow
-from tensorflow.keras import models
-import numpy 
-from tensorflow.keras import preprocessing
+tensorflow==2.5.0
+streamlit==0.88.0
+pillow
+numpy
