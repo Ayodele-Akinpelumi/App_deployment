@@ -7,7 +7,7 @@ from tensorflow.keras import preprocessing
 
 # Model declaration
 def model_predictions(test_img):
-    model = models.load_model(r"C:\Users\USER\Documents\Projct\trained_model.h5")
+    model = models.load_model(r"C:\Users\USER\Documents\Projct\my_model.h5")
     
     # Load image using PIL
     img = Image.open(test_img)
