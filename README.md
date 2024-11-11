@@ -28,7 +28,7 @@ Architecture Type: A Convolutional Neural Network (CNN) is designed for image cl
 
 Layers:
 
-Convolutional Layers: Extracts features from images by detecting edges, textures, and colors, essential for distinguishing different produce.
+Convolutional Layers: Extracts features from images by detecting edges, textures, and colours, essential for distinguishing different produce.
 Pooling Layers: Reduces feature map dimensions and computational cost, aiding generalization by capturing dominant features.
 Regularization Techniques: Applies dropout and batch normalization to prevent overfitting and stabilize learning.
 Dense Layers: Fully connected layers integrate the extracted features and provide a class prediction.
@@ -37,7 +37,7 @@ Function: create_optimized_cnn(input_shape, num_classes): A custom function that
 
 5. Model Compilation
 Loss Function: Categorical cross-entropy is chosen for multi-class classification.
-Optimizer: Adam optimizer, known for its efficiency in adjusting learning rates dynamically.
+Optimizer: Adam optimizer, is known for its efficiency in adjusting learning rates dynamically.
 Evaluation Metrics:
 Accuracy: To measure the percentage of correctly classified samples.
 6. Model Training
@@ -72,13 +72,11 @@ Visualizations: Shows sample images alongside their predicted and actual labels 
 10. Results
 Final Performance:
 
-The model achieves an accuracy of X% on the validation set and Y% on the test set (replace with actual values).
+The model achieves an accuracy of 96.87% on the validation set and 96.67% on the test set.
 Overfitting Status:
 If the model’s performance on the training data is significantly higher than on the validation or test set, it indicates overfitting.
-Conversely, if training and validation metrics are close, it suggests the model has generalized well.
-Confusion Matrix (if included):
+the training and validation metrics are close, which suggests the model has generalized well.
 
-A confusion matrix can be visualized to show the distribution of true vs. predicted labels, highlighting which classes the model predicts accurately and where it struggles.
 11. Visualization of Training History
 Accuracy and Loss Curves:
 Plots of accuracy and loss over epochs for both training and validation data, helping visualize learning patterns.
